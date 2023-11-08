@@ -6,3 +6,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("its working fine!")
+
+
+def example(request):
+    return HttpResponse("<h1>this example works too!</h1>")
